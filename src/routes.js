@@ -18,7 +18,8 @@
 import Login from "views/Login.js";
 import Dashboard from "views/Dashboard.js";
 import UserProfile from "views/UserProfile.js";
-import Create from "views/Create.js";
+// import Create from "views/Create.js";
+import ContactQuries from "views/ContactQuries"
 import TableList from "views/TableList.js";
 import Typography from "views/Typography.js";
 import Icons from "views/Icons.js";
@@ -58,10 +59,10 @@ const dashboardRoutes = [
     layout: "/admin"
   },
   {
-    path: "/create",
-    name: "Create",
+    path: "/quries",
+    name: "Quries",
     icon: "nc-icon nc-notes",
-    component: Create,
+    component: ContactQuries,
     showInSideBar: true,
     layout: "/admin"
   },

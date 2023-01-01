@@ -1,0 +1,97 @@
+import React from "react";
+
+// react-bootstrap components
+import {
+  Card,
+  Table,
+  Container,
+  Row,
+  Col,
+} from "react-bootstrap";
+
+function ContactQuries() {
+  return (
+    <>
+      <Container fluid>
+        <Row>
+          <Col md="12">
+            <Card className="strpied-tabled-with-hover">
+              <Card.Header>
+                <Card.Title as="h4">Contact Us Quries</Card.Title>
+                <p className="card-category">
+                  All Contact Us Quries are Listed Below
+                </p>
+              </Card.Header>
+              <Card.Body className="table-full-width table-responsive px-0">
+                <Table className="table-hover table-striped">
+                  <thead>
+                    <tr>
+                      <th className="border-0">ID</th>
+                      <th className="border-0">First Name</th>
+                      <th className="border-0">Last Name</th>
+                      <th className="border-0">Email</th>
+                      <th className="border-0">Message</th>
+                      <th className="border-0">Capital</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Dakota Rice</td>
+                      <td>$36,738</td>
+                      <td>Niger</td>
+                      <td>Oud-Turnhout</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Minerva Hooper</td>
+                      <td>$23,789</td>
+                      <td>Curaçao</td>
+                      <td>Sinaai-Waas</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Sage Rodriguez</td>
+                      <td>$56,142</td>
+                      <td>Netherlands</td>
+                      <td>Baileux</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>Philip Chaney</td>
+                      <td>$38,735</td>
+                      <td>Korea, South</td>
+                      <td>Overland Park</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>Doris Greene</td>
+                      <td>$63,542</td>
+                      <td>Malawi</td>
+                      <td>Feldkirchen in Kärnten</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td>Mason Porter</td>
+                      <td>$78,615</td>
+                      <td>Chile</td>
+                      <td>Gloucester</td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </Table>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
+    </>
+  );
+}
+
+export default ContactQuries;

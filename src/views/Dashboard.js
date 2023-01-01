@@ -18,14 +18,14 @@ function Dashboard() {
               <Card.Body>
                 <Row>
                   <Col xs="5">
-                    <div className="icon-big text-center icon-warning">
-                      <i className="nc-icon nc-chart text-warning"></i>
+                    <div className="icon-big text-center">
+                    <i class="fas fa-plane"></i>
                     </div>
                   </Col>
                   <Col xs="7">
                     <div className="numbers">
-                      <p className="card-category">Number</p>
-                      <Card.Title as="h4">150GB</Card.Title>
+                      <p className="card-category">Flights Booking</p>
+                      <Card.Title as="h4">70</Card.Title>
                     </div>
                   </Col>
                 </Row>
@@ -45,12 +45,12 @@ function Dashboard() {
                 <Row>
                   <Col xs="5">
                     <div className="icon-big text-center icon-warning">
-                      <i className="nc-icon nc-light-3 text-success"></i>
+                      <i className="fas fa-solid fa-dollar-sign"></i>
                     </div>
                   </Col>
                   <Col xs="7">
                     <div className="numbers">
-                      <p className="card-category">Revenue</p>
+                      <p className="card-category">Total Revnue</p>
                       <Card.Title as="h4">$ 1,345</Card.Title>
                     </div>
                   </Col>
@@ -71,12 +71,12 @@ function Dashboard() {
                 <Row>
                   <Col xs="5">
                     <div className="icon-big text-center icon-warning">
-                      <i className="nc-icon nc-vector text-danger"></i>
+                      <i className="fas fa-solid fa-bed"></i>
                     </div>
                   </Col>
                   <Col xs="7">
                     <div className="numbers">
-                      <p className="card-category">Errors</p>
+                      <p className="card-category">Hotel Bookings</p>
                       <Card.Title as="h4">23</Card.Title>
                     </div>
                   </Col>
@@ -97,13 +97,14 @@ function Dashboard() {
                 <Row>
                   <Col xs="5">
                     <div className="icon-big text-center icon-warning">
-                      <i className="nc-icon nc-favourite-28 text-primary"></i>
+                      <i className="fas fa-sharp fa-solid fa-ban"></i>
+                     
                     </div>
                   </Col>
                   <Col xs="7">
                     <div className="numbers">
-                      <p className="card-category">Followers</p>
-                      <Card.Title as="h4">+45K</Card.Title>
+                      <p className="card-category">Cancelations</p>
+                      <Card.Title as="h4">25</Card.Title>
                     </div>
                   </Col>
                 </Row>
